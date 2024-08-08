@@ -1,0 +1,36 @@
+.popup {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color: #00000090;
+}
+
+.popup-container {
+    background-color: white;
+    place-self: center;
+    padding: 25px 30px;
+    animation: fadein 0.5s;
+    margin-top: -35px;
+    margin-bottom: 138px;
+    width: 30%;
+    border-radius: 5px;
+
+
+}
+
+.cross {
+    margin-left: 317px;
+    margin-top: -82px;
+    width: 10px;
+}
+
+.link-style {
+    color: rgb(255, 102, 0);
+}
+
+.fs-9 {
+    font-size: 14px;
+    color: gray;
+}

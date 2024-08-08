@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 250px;
+}

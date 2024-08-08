@@ -1,0 +1,53 @@
+.mt-30 {
+    margin-top: 30px;
+}
+.center-nav{
+    margin-top: -72px;
+margin-left: 308px;
+}
+
+
+.ms-10 {
+    margin-left: 200px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+.right{
+    margin-left: 475px;
+    margin-top: -81px;
+}
+.dot {
+    width: 10px;
+    position: relative;
+    top: -20px;
+    left: 0px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e63b14;
+    margin: 0 10px;
+}
+.center-align{
+    margin-left: 107px;
+}
