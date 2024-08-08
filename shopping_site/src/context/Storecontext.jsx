@@ -12,7 +12,7 @@ const ContextProvider = (props) => {
   const itemsPerPage = 8;
 
 
-
+//setting the fetched api from Apiservice to the setApiList 
   useEffect(() => {
     const getData = async () => {
       try {
@@ -27,6 +27,8 @@ const ContextProvider = (props) => {
     getData();
   }, []);
 
+
+  //function for handling cart operations
   const addToCart = (product) => {
     setCart((prevCart) => {
       const existingProduct = prevCart.find((item) => product.id === item.id);
@@ -48,6 +50,9 @@ const ContextProvider = (props) => {
   const clearCart = () => {
     setCart([]);
   };
+
+
+
 
   const api = {
     error,

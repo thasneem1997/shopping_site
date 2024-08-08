@@ -14,7 +14,7 @@ function Navbar() {
   const [user, setUser] = useState(
     JSON.parse(localStorage.getItem("loggedInUser"))
   );
-
+// function for handle logout and popup close
   const handleLogout = () => {
     localStorage.removeItem("loggedInUser");
     setUser(null);

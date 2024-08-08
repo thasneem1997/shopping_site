@@ -13,7 +13,7 @@ function Profile() {
       navigate("/");
     }
   }, [user, navigate]);
-
+// logout function
   const handleLogout = () => {
     localStorage.removeItem("loggedInUser");
     setUser(null);

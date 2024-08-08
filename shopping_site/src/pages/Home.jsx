@@ -19,6 +19,7 @@ function Home() {
        <Slider/>
     <div className="container text-center">
       <br /> <br /> <br />
+    
       <div className="row" id="product">
         {currentItems.map((item) => (
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={item.id}>

@@ -4,6 +4,7 @@ const api_url = "https://fakestoreapi.com/products/";
 
 export const fetchdata = async () => {
   try {
+    // fetching api using axios
     const response = await axios.get(api_url);
     return response.data;
   } catch (error) {
