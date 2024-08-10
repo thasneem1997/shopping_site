@@ -17,7 +17,6 @@
 label {
     font-size: 15px;
 }
-.sidebar{
-    width: 20%;
-    margin-left: -271px;}
+.flex-container{
+   display: flex;}
     

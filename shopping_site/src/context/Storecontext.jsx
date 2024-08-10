@@ -38,8 +38,8 @@ const ContextProvider = (props) => {
             ? { ...item, quantity: item.quantity + 1 }
             : item
         );
-      }
-      return [...prevCart, { ...product, quantity: 1 }];
+      }//if  product is already in cart then increement the quantity by one
+      return [...prevCart, { ...product, quantity: 1 }];//if not in cart then set quantity as one and add that to cart
     });
   };
 

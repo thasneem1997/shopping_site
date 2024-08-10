@@ -38,16 +38,7 @@ margin-left: 308px;
     margin-left: 475px;
     margin-top: -81px;
 }
-.dot {
-    width: 10px;
-    position: relative;
-    top: -20px;
-    left: 0px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #e63b14;
-    margin: 0 10px;
-}
+
 .center-align{
     margin-left: 107px;
 }

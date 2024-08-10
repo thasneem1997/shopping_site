@@ -5,8 +5,15 @@
     background-position: center;
     padding: 90px 54px;
     border-radius: 18px;
+    width: 100%;
 
 
+}
+.sidebar-container a{
+  
+    text-decoration: none;
+    color: #54504f;
+    transition: all 0.3s ease;
 }
 
 .slider-content {
@@ -15,7 +22,7 @@
 
 .slider-content h1 {
     color: #23201c;
-    font-size: 70px;
+    font-size: 56px;
     font-weight: 500;
     margin-top: -6px;
 
@@ -23,42 +30,42 @@
 
 .slider-content p {
     color: rgb(55, 52, 52);
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 22px;
 }
 
 .slider-btn {
-  
-  background-color: initial;
-  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 40px;
-  outline: 0;
-  overflow: hidden;
-  padding: 0 20px;
-  pointer-events: auto;
-  position: relative;
-  text-align: center;
-  touch-action: manipulation;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: top;
-  white-space: nowrap;
-  height: 52px;
-  width: 11%;
-  z-index: 9;
-  border: 0;
-  transition: box-shadow .2s;
+
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 52px;
+    width: 11%;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
 }
 
 .slider-btn:hover {
-  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
 }
-   
+
 
 
 @media(max-width:1050px) {

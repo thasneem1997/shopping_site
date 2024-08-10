@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import basket_icon from "../assets/basket_icon.png";
 import profile_icon from "../assets/profile_icon.png";
-import search_icon from "../assets/search_icon.png";
 import "./Navbar.css";
 import { Storecontext } from "../context/Storecontext";
 import Popup from "./Popup";
@@ -67,9 +66,7 @@ function Navbar() {
               </li>
             </ul>
             <div className="d-flex">
-              <a href="#" className="me-3">
-                <img src={search_icon} width="30" height="30" alt="Search" />
-              </a>
+             
               <Link to="/cart" className="me-3 position-relative">
                 <img src={basket_icon} width="30" height="30" alt="Basket" />
                 {cart.length > 0 && (

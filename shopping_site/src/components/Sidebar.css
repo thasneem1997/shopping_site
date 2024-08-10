@@ -1,0 +1,30 @@
+.sidebar-container{
+    width: 10%;
+    margin-left: 24px;
+    margin-top: 54px;
+}
+.filter-title{
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+hr{
+    margin-top: 2px;
+    width: 141px;
+
+}
+.listitem{
+    cursor: pointer;
+    list-style: none;
+    
+    margin-left: -18px;
+}
+.sort{
+    margin-left: -2px;
+}
+.search{
+    border: 1px solid #cfc7c7;
+    padding: 6px 4px;
+    border-radius: 4px;
+    width: 179px;
+}
